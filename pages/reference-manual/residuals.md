@@ -5,7 +5,7 @@ tagline: technical documentation for JDemetra+ using GitHub Pages
 description: Basic
 ---
 
-Examination of residuals from a fitted model for signs of model
+AAA Examination of residuals from a fitted model for signs of model
 inadequacy is a crucial step of a model validation. Therefore, JDemetra+
 produces several residual diagnostics and graphs for a detailed
 validation of the residuals. They are presented in the *Residuals*
