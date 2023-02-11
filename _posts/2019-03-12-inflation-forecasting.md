@@ -377,8 +377,8 @@ con the estimated parameters, and a 95$\%$ confidence interval given by the smoo
 Let me show the code required to generate this graph (using ```ggplot```)
 
 ```R
-library(ggplot2)
-library(reshape2)
+library("ggplot2")
+library("reshape2")
 
 outputGap <- ts(result(rsltX_final, cycle)*scale, start=c(1995, 1), end=c(2020, 4), frequency=4)
 outputGapL <- ts(result(rsltX_final, cycle)*scale+2*sqrt(result(rsltX_final, vCycle))*scale, start=c(1995, 1), end=c(2020, 4), frequency=4)
